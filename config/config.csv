@@ -1,0 +1,6 @@
+schema_name,table_name,file_patterns,file_format,has_header,delimiter,comment
+bronze,ventas,ventas.*\.csv|fact_sales.*\.csv|sales.*\.csv,csv,true,",",Ventas raw desde CSV
+bronze,clientes,clientes.*\.csv|customer.*\.csv|clients.*\.csv,csv,true,",",Clientes raw desde CSV
+bronze,productos,productos.*\.csv|products.*\.csv,csv,true,",",Productos raw desde CSV
+bronze,tiendas,tiendas.*\.csv|stores.*\.csv,csv,true,",",Tiendas raw desde CSV
+bronze,devoluciones,devoluciones.*\.csv|returns.*\.csv,csv,true,",",Devoluciones raw desde CSV
